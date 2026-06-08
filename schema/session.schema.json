@@ -1,1 +1,18 @@
-
+{
+  "session_id": "S001",
+  "participant_id": "P001",
+  "date": "2026-06-08",
+  "modalities": ["wearable", "motion_capture", "physiology", "self_report"],
+  "sensors": [
+    {
+      "name": "smartwatch",
+      "sampling_rate_hz": 1,
+      "data_type": "heart_rate"
+    },
+    {
+      "name": "motion_capture",
+      "sampling_rate_hz": 60,
+      "data_type": "body_pose"
+    }
+  ]
+}
